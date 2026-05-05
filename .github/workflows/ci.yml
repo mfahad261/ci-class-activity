@@ -23,7 +23,7 @@ jobs:
           echo "Tests: PASS" >> report.txt
 
       - name: Upload Report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: validation-report
           path: report.txt
